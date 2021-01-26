@@ -1,10 +1,8 @@
 import React from "react";
 import HelloWorld from "./components/HelloWorld.jsx";
 
-class App extends React.Component {
-  render() {
-    return <HelloWorld />;
-  }
+function App() {
+  return <HelloWorld></HelloWorld>;
 }
 
 export default App;
